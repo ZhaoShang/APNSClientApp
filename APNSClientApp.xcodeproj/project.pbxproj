@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF0E2BAB18291CB00010EFC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0E2BAA18291CB00010EFC6 /* Foundation.framework */; };
+		EF0E2BAD18291CB00010EFC6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0E2BAC18291CB00010EFC6 /* CoreGraphics.framework */; };
+		EF0E2BAF18291CB00010EFC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0E2BAE18291CB00010EFC6 /* UIKit.framework */; };
+		EF0E2BB518291CB00010EFC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF0E2BB318291CB00010EFC6 /* InfoPlist.strings */; };
+		EF0E2BB718291CB00010EFC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0E2BB618291CB00010EFC6 /* main.m */; };
+		EF0E2BBB18291CB00010EFC6 /* APNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0E2BBA18291CB00010EFC6 /* APNAppDelegate.m */; };
+		EF0E2BBD18291CB00010EFC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0E2BBC18291CB00010EFC6 /* Images.xcassets */; };
+		EF0E2BC418291CB00010EFC6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0E2BC318291CB00010EFC6 /* XCTest.framework */; };
+		EF0E2BC518291CB00010EFC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0E2BAA18291CB00010EFC6 /* Foundation.framework */; };
+		EF0E2BC618291CB00010EFC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0E2BAE18291CB00010EFC6 /* UIKit.framework */; };
+		EF0E2BCE18291CB00010EFC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF0E2BCC18291CB00010EFC6 /* InfoPlist.strings */; };
+		EF0E2BD018291CB00010EFC6 /* APNSClientAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0E2BCF18291CB00010EFC6 /* APNSClientAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF0E2BC718291CB00010EFC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF0E2B9F18291CB00010EFC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF0E2BA618291CB00010EFC6;
+			remoteInfo = APNSClientApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF0E2BA718291CB00010EFC6 /* APNSClientApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APNSClientApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0E2BAA18291CB00010EFC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF0E2BAC18291CB00010EFC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF0E2BAE18291CB00010EFC6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF0E2BB218291CB00010EFC6 /* APNSClientApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APNSClientApp-Info.plist"; sourceTree = "<group>"; };
+		EF0E2BB418291CB00010EFC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF0E2BB618291CB00010EFC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF0E2BB818291CB00010EFC6 /* APNSClientApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APNSClientApp-Prefix.pch"; sourceTree = "<group>"; };
+		EF0E2BB918291CB00010EFC6 /* APNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APNAppDelegate.h; sourceTree = "<group>"; };
+		EF0E2BBA18291CB00010EFC6 /* APNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APNAppDelegate.m; sourceTree = "<group>"; };
+		EF0E2BBC18291CB00010EFC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF0E2BC218291CB00010EFC6 /* APNSClientAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APNSClientAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0E2BC318291CB00010EFC6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF0E2BCB18291CB00010EFC6 /* APNSClientAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APNSClientAppTests-Info.plist"; sourceTree = "<group>"; };
+		EF0E2BCD18291CB00010EFC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF0E2BCF18291CB00010EFC6 /* APNSClientAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APNSClientAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF0E2BA418291CB00010EFC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0E2BAD18291CB00010EFC6 /* CoreGraphics.framework in Frameworks */,
+				EF0E2BAF18291CB00010EFC6 /* UIKit.framework in Frameworks */,
+				EF0E2BAB18291CB00010EFC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0E2BBF18291CB00010EFC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0E2BC418291CB00010EFC6 /* XCTest.framework in Frameworks */,
+				EF0E2BC618291CB00010EFC6 /* UIKit.framework in Frameworks */,
+				EF0E2BC518291CB00010EFC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF0E2B9E18291CB00010EFC6 = {
+			isa = PBXGroup;
+			children = (
+				EF0E2BB018291CB00010EFC6 /* APNSClientApp */,
+				EF0E2BC918291CB00010EFC6 /* APNSClientAppTests */,
+				EF0E2BA918291CB00010EFC6 /* Frameworks */,
+				EF0E2BA818291CB00010EFC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF0E2BA818291CB00010EFC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF0E2BA718291CB00010EFC6 /* APNSClientApp.app */,
+				EF0E2BC218291CB00010EFC6 /* APNSClientAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF0E2BA918291CB00010EFC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF0E2BAA18291CB00010EFC6 /* Foundation.framework */,
+				EF0E2BAC18291CB00010EFC6 /* CoreGraphics.framework */,
+				EF0E2BAE18291CB00010EFC6 /* UIKit.framework */,
+				EF0E2BC318291CB00010EFC6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF0E2BB018291CB00010EFC6 /* APNSClientApp */ = {
+			isa = PBXGroup;
+			children = (
+				EF0E2BB918291CB00010EFC6 /* APNAppDelegate.h */,
+				EF0E2BBA18291CB00010EFC6 /* APNAppDelegate.m */,
+				EF0E2BBC18291CB00010EFC6 /* Images.xcassets */,
+				EF0E2BB118291CB00010EFC6 /* Supporting Files */,
+			);
+			path = APNSClientApp;
+			sourceTree = "<group>";
+		};
+		EF0E2BB118291CB00010EFC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF0E2BB218291CB00010EFC6 /* APNSClientApp-Info.plist */,
+				EF0E2BB318291CB00010EFC6 /* InfoPlist.strings */,
+				EF0E2BB618291CB00010EFC6 /* main.m */,
+				EF0E2BB818291CB00010EFC6 /* APNSClientApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF0E2BC918291CB00010EFC6 /* APNSClientAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF0E2BCF18291CB00010EFC6 /* APNSClientAppTests.m */,
+				EF0E2BCA18291CB00010EFC6 /* Supporting Files */,
+			);
+			path = APNSClientAppTests;
+			sourceTree = "<group>";
+		};
+		EF0E2BCA18291CB00010EFC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF0E2BCB18291CB00010EFC6 /* APNSClientAppTests-Info.plist */,
+				EF0E2BCC18291CB00010EFC6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF0E2BA618291CB00010EFC6 /* APNSClientApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0E2BD318291CB00010EFC6 /* Build configuration list for PBXNativeTarget "APNSClientApp" */;
+			buildPhases = (
+				EF0E2BA318291CB00010EFC6 /* Sources */,
+				EF0E2BA418291CB00010EFC6 /* Frameworks */,
+				EF0E2BA518291CB00010EFC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APNSClientApp;
+			productName = APNSClientApp;
+			productReference = EF0E2BA718291CB00010EFC6 /* APNSClientApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF0E2BC118291CB00010EFC6 /* APNSClientAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0E2BD618291CB00010EFC6 /* Build configuration list for PBXNativeTarget "APNSClientAppTests" */;
+			buildPhases = (
+				EF0E2BBE18291CB00010EFC6 /* Sources */,
+				EF0E2BBF18291CB00010EFC6 /* Frameworks */,
+				EF0E2BC018291CB00010EFC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF0E2BC818291CB00010EFC6 /* PBXTargetDependency */,
+			);
+			name = APNSClientAppTests;
+			productName = APNSClientAppTests;
+			productReference = EF0E2BC218291CB00010EFC6 /* APNSClientAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF0E2B9F18291CB00010EFC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = APN;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Jivaro;
+				TargetAttributes = {
+					EF0E2BC118291CB00010EFC6 = {
+						TestTargetID = EF0E2BA618291CB00010EFC6;
+					};
+				};
+			};
+			buildConfigurationList = EF0E2BA218291CB00010EFC6 /* Build configuration list for PBXProject "APNSClientApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF0E2B9E18291CB00010EFC6;
+			productRefGroup = EF0E2BA818291CB00010EFC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF0E2BA618291CB00010EFC6 /* APNSClientApp */,
+				EF0E2BC118291CB00010EFC6 /* APNSClientAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF0E2BA518291CB00010EFC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0E2BB518291CB00010EFC6 /* InfoPlist.strings in Resources */,
+				EF0E2BBD18291CB00010EFC6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0E2BC018291CB00010EFC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0E2BCE18291CB00010EFC6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF0E2BA318291CB00010EFC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0E2BBB18291CB00010EFC6 /* APNAppDelegate.m in Sources */,
+				EF0E2BB718291CB00010EFC6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0E2BBE18291CB00010EFC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0E2BD018291CB00010EFC6 /* APNSClientAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF0E2BC818291CB00010EFC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF0E2BA618291CB00010EFC6 /* APNSClientApp */;
+			targetProxy = EF0E2BC718291CB00010EFC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF0E2BB318291CB00010EFC6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF0E2BB418291CB00010EFC6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF0E2BCC18291CB00010EFC6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF0E2BCD18291CB00010EFC6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF0E2BD118291CB00010EFC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF0E2BD218291CB00010EFC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF0E2BD418291CB00010EFC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sun sen (89ZLXA76V2)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APNSClientApp/APNSClientApp-Prefix.pch";
+				INFOPLIST_FILE = "APNSClientApp/APNSClientApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF0E2BD518291CB00010EFC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Xi'an ThinkJoy Information Technology Co., Ltd. (37S25G3D3S)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APNSClientApp/APNSClientApp-Prefix.pch";
+				INFOPLIST_FILE = "APNSClientApp/APNSClientApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF0E2BD718291CB00010EFC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/APNSClientApp.app/APNSClientApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APNSClientApp/APNSClientApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "APNSClientAppTests/APNSClientAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EF0E2BD818291CB00010EFC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/APNSClientApp.app/APNSClientApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APNSClientApp/APNSClientApp-Prefix.pch";
+				INFOPLIST_FILE = "APNSClientAppTests/APNSClientAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF0E2BA218291CB00010EFC6 /* Build configuration list for PBXProject "APNSClientApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0E2BD118291CB00010EFC6 /* Debug */,
+				EF0E2BD218291CB00010EFC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF0E2BD318291CB00010EFC6 /* Build configuration list for PBXNativeTarget "APNSClientApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0E2BD418291CB00010EFC6 /* Debug */,
+				EF0E2BD518291CB00010EFC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF0E2BD618291CB00010EFC6 /* Build configuration list for PBXNativeTarget "APNSClientAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0E2BD718291CB00010EFC6 /* Debug */,
+				EF0E2BD818291CB00010EFC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF0E2B9F18291CB00010EFC6 /* Project object */;
+}
